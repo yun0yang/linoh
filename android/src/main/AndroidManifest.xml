@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- linoh 网络通信必需权限 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <!-- Android 9+ 前台服务（linoh endpoint 后台保活）由宿主 App 申请 -->
+    <!-- 宿主 App 必须自行声明 foregroundServiceType="dataSync" 并申请
+         FOREGROUND_SERVICE 权限；本 AAR 不强制声明以避免合并冲突 -->
+
+</manifest>

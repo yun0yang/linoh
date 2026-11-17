@@ -1,0 +1,142 @@
+# Build output directories
+build/
+
+# Compiled object files
+*.obj
+*.o
+
+# Executables
+*.exe
+
+# Libraries
+*.lib
+*.a
+*.so
+*.dylib
+*.dll
+
+# Linker output
+*.exp
+*.ilk
+*.pdb
+
+# Test runtime logs
+*_log.txt
+*_err.txt
+*_out.txt
+*.log
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# IDE / editor
+.vs/
+.vscode/
+.idea/
+*.suo
+*.user
+
+# macOS
+.DS_Store
+
+# Workbuddy memory (开发环境本地缓存)
+.workbuddy/
+
+# 临时测试脚本（PowerShell 按钮测试、调试脚本）
+test_btn*.ps1
+test_button_click.ps1
+test_server.ps1
+test_router_server.ps1
+verify_*.ps1
+run_tests*.ps1
+
+# 临时编译脚本
+test_compile.bat
+test_compile_app_msg.bat
+
+# Internal working documents (not for publish)
+*.md
+!README.md
+!docs/GPUSTACK_NETWORK_ANALYSIS.md
+!docs/RELEASE_NOTES_v3.3.0.md
+!docs/RELEASE_NOTES_v3.4.0.md
+!docs/RELEASE_NOTES_v3.5.0.md
+!docs/RELEASE_NOTES_v3.6.0.md
+!docs/RELEASE_NOTES_v3.6.1.md
+!docs/RELEASE_NOTES_v3.9.0.md
+!docs/RELEASE_NOTES_v3.9.6.md
+!docs/P5_D_NAT_HARDENING_PLAN.md
+!docs/P5_D_3_ENDPOINT_INTEGRATION_PLAN.md
+!docs/P5_D_4_PENETRATION_ADAPTATION_PLAN.md
+!docs/LINOH_EVENTBUS_BINARY_FRAME_IMPL_PLAN.md
+!docs/LINOH_EVOLUTION_ROADMAP.md
+!docs/EXTERNAL_PROJECT_OPTIMIZATION_IDEAS.md
+!docs/NATIONAL_COMPUTE_NETWORK_EVOLUTION.md
+!docs/RELEASE_NOTES_v4.0.0.md
+!docs/RELEASE_NOTES_v4.0.1.md
+!docs/RELEASE_NOTES_v4.0.2.md
+!docs/RELEASE_NOTES_v4.0.3.md
+!docs/RELEASE_NOTES_v4.0.4.md
+!docs/RELEASE_NOTES_v4.0.5.md
+!docs/RELEASE_NOTES_v4.3.0.md
+!docs/V4.3_DESIGN_DRAFT.md
+!docs/CLUSTER_BUTLER_INTEGRATION_v4.3.md
+!docs/LINOH_V3_INTEGRATION_GUIDE.md
+!docs/RELEASE_NOTES_v4.4.0.md
+!docs/RELEASE_NOTES_v4.4.1.md
+!docs/RELEASE_NOTES_v4.4.2.md
+!docs/RELEASE_NOTES_v4.4.3.md
+!docs/RELEASE_NOTES_v4.5.0.md
+!docs/RELEASE_NOTES_v4.6.0.md
+!docs/RELEASE_NOTES_v4.7.0.md
+!docs/RELEASE_NOTES_v4.8.0.md
+!docs/NAT_TRAVERSAL_OPTIMIZATION_PLAN.md
+!docs/NAT_TRAVERSAL_STAGE4_DEV_TASKS.md
+
+# 临时回归/编译脚本（本地调试用）
+run_full_reg.ps1
+run_test_*.ps1
+build_e2e_test.bat
+build_nat_stats_test.bat
+build_port_predictor_test.bat
+commit_msg*.txt
+build_v*.log
+
+# v1.5.0.2 临时构建/运行脚本（本地调试用，不入库）
+build_all_v1501_2.err
+run_build.ps1
+build_fec_group.bat
+build_pp_multimodal.bat
+run_all_tests.bat
+run_r3_632.sh
+
+# Android 跨平台工作（暂未启用）
+android/.gradle/
+
+patch_read_timeout.py
+patch_v483.py
+patch_v483.sh
+9300)
+WARN)
+.mimosa/
+rebuild_relay_log.*
+restart_worker.sh
+start_master_v483.sh
+test_inference.json
+Testing/
+computenet-verify/
+core_connection.obj
+port_predictor.obj
+*.obj
+*.exe
+__pycache__/
+.tmp/
+bbr_probe*
+*.log
